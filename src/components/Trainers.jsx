@@ -21,7 +21,15 @@ export default function Trainers() {
               className={`reveal reveal-d${i + 1} border border-gold/20 bg-obsidian-3 overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:border-gold/40 group`}
             >
               <div className="overflow-hidden">
-                <TrainerMonogram initials={trainer.initials} />
+                {trainer.image ? (
+                  <img
+                    src={trainer.image}
+                    alt={trainer.name}
+                    className="h-[320px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <TrainerMonogram initials={trainer.initials} />
+                )}
               </div>
               <div className="p-6">
                 <h3 className="font-display text-[1.25rem] font-light text-ivory mb-1">

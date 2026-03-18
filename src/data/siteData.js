@@ -72,6 +72,8 @@ export const TRAINERS = [
     role: 'Head of Strength & Conditioning',
     bio: 'Former Olympic weightlifting coach with 15 years developing elite athletes. CSCS certified.',
     tags: ['Strength', 'Olympic Lifting', 'Rehab'],
+    image:
+      'https://cdn.prod.website-files.com/66aa8fe9dc4db68f448a978f/67d23ab405a87450847e4872_RT_240717_ANYTIME_FITNESS_3489-BATCH_rgb.jpg',
   },
   {
     initials: 'SL',
@@ -79,6 +81,8 @@ export const TRAINERS = [
     role: 'Performance & Nutrition Specialist',
     bio: 'Competitive triathlete and registered nutritionist. Merges metabolic science with high-performance training.',
     tags: ['Endurance', 'Nutrition', 'HIIT'],
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXlFgbWEZJwMtAmPBP9XLV_m4OfQJAsvx4zw&s',
   },
   {
     initials: 'MK',
@@ -86,6 +90,8 @@ export const TRAINERS = [
     role: 'Combat & Functional Movement',
     bio: 'British kickboxing champion. 12 years coaching athletes from beginners to professional fight camps.',
     tags: ['Boxing', 'Kickboxing', 'Mobility'],
+    image:
+      'https://t4.ftcdn.net/jpg/05/63/97/01/360_F_563970176_Pyu1VP7EomJZCVWUX1DPqc11L13iLVbH.jpg',
   },
   {
     initials: 'NA',
@@ -93,6 +99,8 @@ export const TRAINERS = [
     role: 'Mind-Body & Recovery Lead',
     bio: 'Certified physiotherapist and 200hr yoga teacher. Specialises in longevity-focused movement and breathwork.',
     tags: ['Yoga', 'Pilates', 'Recovery'],
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEx_WmFEyU_x-3LqrIyTOHX3iYKs3zIH8Byw&s',
   },
 ]
 

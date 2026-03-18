@@ -5,16 +5,16 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
+      className="relative min-h-screen md:min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
       {/* Background */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://media.istockphoto.com/id/2075354173/photo/fitness-couple-is-doing-kettlebell-twist-in-a-gym-togehter.jpg?s=612x612&w=0&k=20&c=lfs1V1d0YB33tn72myi6FElJnylPJYYM9lW5ZhlnYqY=')",
-        }}
-      />
+      <div className="absolute inset-0">
+        <img
+          src="https://media.istockphoto.com/id/2075354173/photo/fitness-couple-is-doing-kettlebell-twist-in-a-gym-togehter.jpg?s=612x612&w=0&k=20&c=lfs1V1d0YB33tn72myi6FElJnylPJYYM9lW5ZhlnYqY="
+          alt=""
+          className="h-full w-full object-fill object-center md:object-cover md:object-center"
+        />
+      </div>
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(10,10,10,0.45)_0%,rgba(10,10,10,0.74)_45%,rgba(10,10,10,0.94)_100%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(184,151,90,0.18),transparent_40%)] grid-bg opacity-80" />
 
