@@ -15,37 +15,14 @@ export default function About() {
           {/* Visual */}
           <div className="reveal relative">
             <div className="border border-gold/20 overflow-hidden">
-              <svg
-                viewBox="0 0 400 480"
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-full block"
-              >
-                <defs>
-                  <radialGradient id="about-rg" cx="50%" cy="42%" r="55%">
-                    <stop offset="0%" stopColor="#b8975a" stopOpacity="0.15" />
-                    <stop offset="100%" stopColor="#0a0a0a" stopOpacity="0" />
-                  </radialGradient>
-                  <pattern id="about-pg" width="36" height="36" patternUnits="userSpaceOnUse">
-                    <path
-                      d="M 36 0 L 0 0 0 36"
-                      fill="none"
-                      stroke="#b8975a"
-                      strokeWidth="0.3"
-                      strokeOpacity="0.18"
-                    />
-                  </pattern>
-                </defs>
-                <rect width="400" height="480" fill="#0d0d0d" />
-                <rect width="400" height="480" fill="url(#about-pg)" />
-                <rect width="400" height="480" fill="url(#about-rg)" />
-                <circle cx="200" cy="220" r="95" fill="none" stroke="#b8975a" strokeWidth="0.6" strokeOpacity="0.38" />
-                <circle cx="200" cy="220" r="135" fill="none" stroke="#b8975a" strokeWidth="0.3" strokeOpacity="0.2" />
-                <circle cx="200" cy="220" r="56" fill="#16130d" stroke="#b8975a" strokeWidth="0.6" strokeOpacity="0.5" />
-                <text x="200" y="210" textAnchor="middle" fill="#b8975a" fontFamily="Cormorant Garamond, serif" fontSize="22" fontStyle="italic" opacity="0.9">APEX</text>
-                <text x="200" y="240" textAnchor="middle" fill="#b8975a" fontFamily="Montserrat, sans-serif" fontSize="7" letterSpacing="5" opacity="0.5">ELITE FITNESS</text>
-                <line x1="0" y1="220" x2="104" y2="220" stroke="#b8975a" strokeWidth="0.4" strokeOpacity="0.3" />
-                <line x1="296" y1="220" x2="400" y2="220" stroke="#b8975a" strokeWidth="0.4" strokeOpacity="0.3" />
-              </svg>
+              <div className="relative h-[620px] md:h-[720px]">
+                <img
+                  src="https://media.istockphoto.com/id/1088471402/photo/personal-weight-training.jpg?s=612x612&w=0&k=20&c=6B2xzajBTgi0JHTRM2pNEaNl0i06ZJjY2fXR4F_ZDtg="
+                  alt="Personal weight training session"
+                  className="h-[800px] w-full object-cover"
+                />
+                <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(10,10,10,0.1)_0%,rgba(10,10,10,0.45)_100%)]" />
+              </div>
             </div>
             <div className="absolute -bottom-5 -right-5 w-1/2 h-1/2 border border-gold/15 pointer-events-none" />
           </div>

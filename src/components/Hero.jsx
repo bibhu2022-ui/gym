@@ -8,7 +8,15 @@ export default function Hero() {
       className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_40%,#1a160e_0%,#0a0a0a_70%)] grid-bg" />
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('https://media.istockphoto.com/id/2075354173/photo/fitness-couple-is-doing-kettlebell-twist-in-a-gym-togehter.jpg?s=612x612&w=0&k=20&c=lfs1V1d0YB33tn72myi6FElJnylPJYYM9lW5ZhlnYqY=')",
+        }}
+      />
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(10,10,10,0.45)_0%,rgba(10,10,10,0.74)_45%,rgba(10,10,10,0.94)_100%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(184,151,90,0.18),transparent_40%)] grid-bg opacity-80" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 pt-36 pb-28 animate-fadeUp">
